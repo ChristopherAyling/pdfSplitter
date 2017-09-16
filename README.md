@@ -1,10 +1,8 @@
 # pdfSplitter
 Splits a PDF
 
-INPUT: splitPDF pdfPath name page name page name page ...
+On the command line: splitPDF pdfPath name pages name pages name pages ...
 
-Splits the specified pdf into multiple. Each new
-document begins at the given page numbers and ends
-before the next. Names new documents.
+Splits the specified pdf into multiple. Names each new PDF.
 
 Dependant on: https://github.com/jaraco/PDF
